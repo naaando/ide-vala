@@ -1,0 +1,29 @@
+{
+  "name": "ide-vala",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Vala language support for Atom-IDE",
+  "repository": "https://github.com/naaando/ide-vala",
+  "license": "GPL",
+  "keywords": [
+    "atom-ide",
+    "vala",
+    "lsp",
+    "language-client"
+  ],
+  "enhancedScopes": [
+    "source.vala"
+  ],
+  "activationCommands": {
+    "atom-workspace": "ide-vala:toggle"
+  },
+  "configSchema": {
+  },
+  "engines": {
+    "atom": ">=1.21.0"
+  },
+  "dependencies": {
+    "atom-languageclient": "0.8.1",
+    "atom-languageserver-bin": "^0.0.0"
+  }
+}
