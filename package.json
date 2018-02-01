@@ -14,10 +14,13 @@
   "enhancedScopes": [
     "source.vala"
   ],
-  "activationCommands": {
-    "atom-workspace": "ide-vala:toggle"
-  },
   "configSchema": {
+    "vlsPath": {
+      "type": "string",
+      "title": "Vala language server path",
+      "default": "",
+      "description": "Use custom Vala language server path"
+    }
   },
   "engines": {
     "atom": ">=1.21.0"
