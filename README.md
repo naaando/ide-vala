@@ -1,4 +1,4 @@
-# WIP IDE-VALA package
+# IDE-VALA package
 
 Vala language support for Atom-IDE, powered by [Vala Language Server](https://github.com/benwaffle/vala-language-server).
 
