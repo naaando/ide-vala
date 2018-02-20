@@ -10,8 +10,8 @@ Download the repository and install
 
 ```bash
 cd ide-vala/
-npm install
-npm link
+apm install
+apm link
 ```
 You should also download and compile the [Vala Language Server](https://github.com/benwaffle/vala-language-server), instructions on how to compile can be found in the repo, but for convenience
 
