@@ -1,7 +1,7 @@
 {
   "name": "ide-vala",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Vala language support for Atom-IDE",
   "repository": "https://github.com/naaando/ide-vala",
   "license": "GPL",
@@ -44,7 +44,7 @@
     "autocomplete.provider": {
       "versions": {
         "2.0.0": "provideAutocomplete"
-        }
+      }
     }
   }
 }
