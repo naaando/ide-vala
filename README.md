@@ -6,7 +6,7 @@ Requires [Atom >1.21](https://atom.io/).
 
 ## Features
 - [x] Syntax highlight
-- [ ] Code completion
+- [x] Code completion \[WIP]
 - [ ] Hover
 - [ ] Jump to def
 - [ ] Workspace symbols
