@@ -39,5 +39,12 @@
         "2.0.0": "consumeLinterV2"
       }
     }
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provideAutocomplete"
+        }
+    }
   }
 }
