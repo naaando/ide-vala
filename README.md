@@ -4,6 +4,16 @@ Vala language support for Atom-IDE, powered by [Vala Language Server](https://gi
 
 Requires [Atom >1.21](https://atom.io/).
 
+## Features
+- [x] Syntax highlight
+- [x] Code completion \[WIP]
+- [ ] Hover
+- [ ] Jump to def
+- [ ] Workspace symbols
+- [ ] Find references
+- [x] Diagnostics
+- [ ] Refactoring
+
 ## Installation
 
 Download the repository and install
