@@ -16,6 +16,12 @@ Requires [Atom >1.21](https://atom.io/).
 
 ## Installation
 
+Download the [Vala Language Server](https://github.com/benwaffle/vala-language-server)
+
+## Development
+
+This package is currently in development. You should also install the [atom-ide-ui](https://atom.io/packages/atom-ide-ui) package to expose the functionality within Atom.
+
 Download the repository and install
 
 ```bash
@@ -23,17 +29,9 @@ cd ide-vala/
 apm install
 apm link
 ```
-You should also download and compile the [Vala Language Server](https://github.com/benwaffle/vala-language-server), instructions on how to compile can be found in the repo, but for convenience
+You should also download and compile the [Vala Language Server](https://github.com/benwaffle/vala-language-server)
 
-```bash
-meson build
-ninja -C build
-```
 Now find ide-vala on atom packages and **go on settings and set the binary path or just install the language server system-wide**
-
-## Development
-
-This package is currently in development. You should also install the [atom-ide-ui](https://atom.io/packages/atom-ide-ui) package to expose the functionality within Atom.
 
 ## Contributing
 Always feel free to help out!
